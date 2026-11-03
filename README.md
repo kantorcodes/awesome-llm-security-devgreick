@@ -126,6 +126,7 @@ LLM security is moving fast — new tools, attack vectors, and frameworks appear
 | Name | Description | Maturity | Pricing | Link |
 |------|-------------|----------|---------|------|
 | [Guardrails AI](https://www.guardrailsai.com/) | Validation framework for LLM outputs with custom validators | 🟢⭐ | 💎 | [GitHub](https://github.com/guardrails-ai/guardrails) |
+| [HOL Guard](https://hol.org/guard) | Local policy checks for risky AI coding-agent tool actions before execution | 🟡 | 🆓 | [GitHub](https://github.com/hashgraph-online/hol-guard) |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA's programmable rails for LLM conversational systems | 🟢 | 🆓 | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
 
 ### PII & Data Leakage Prevention
