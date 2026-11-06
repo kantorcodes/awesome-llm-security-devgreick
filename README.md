@@ -17,7 +17,9 @@ Curated by [DevGreick](https://github.com/DevGreick)
 
 ## Why This List?
 
-LLM security is moving fast — new tools, attack vectors, and frameworks appear every week. This list is **practitioner-first**, organized by what you're trying to do, with pricing, maturity badges, opinionated stacks, and getting-started paths. Every entry is something you can install and run today.
+LLM security is moving fast, new tools, attack vectors, and frameworks appear every week. This list is **practitioner-first**, organized by what you're trying to do, with pricing, maturity badges, opinionated stacks, and getting-started paths. Every entry is something you can install and run today.
+
+Looking for research papers and academic resources? See [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security). This list focuses on tools you can deploy.
 
 
 ## Contents
@@ -56,9 +58,9 @@ LLM security is moving fast — new tools, attack vectors, and frameworks appear
 >
 > | Badge | Meaning |
 > |-------|---------|
-> | 🟢 | Production-ready / Mature |
-> | 🟡 | Beta / Active development |
-> | 🔴 | Alpha / Experimental |
+> | 🟢 | Production-ready: stable releases (1.0+ or equivalent), active maintenance, real-world adoption |
+> | 🟡 | Beta: pre-1.0 or fast-changing API, actively maintained |
+> | 🔴 | Alpha / Experimental: early stage, few releases, or core features untested |
 > | ⭐ | Tested by [DevGreick](https://github.com/DevGreick) |
 > | 🆓 | Free / Open Source |
 > | 💎 | Freemium (free tier + paid features) |
@@ -147,14 +149,18 @@ LLM security is moving fast — new tools, attack vectors, and frameworks appear
 | [Aegis](https://github.com/sahil-sagwekar2652/aegis) | Open source EDR for AI agents: process, file, network monitoring | 🟡⭐ | 🆓 | [GitHub](https://github.com/sahil-sagwekar2652/aegis) |
 | [Agentic Radar](https://github.com/splx-ai/agentic-radar) | CLI security scanner for agentic AI workflows | 🟡 | 🆓 | [GitHub](https://github.com/splx-ai/agentic-radar) |
 | [HOL Guard](https://hol.org/guard) | Local-first policy checks for supported AI agent actions, MCP tools, package installs, and secrets | 🟢 | 🆓 | [GitHub](https://github.com/hashgraph-online/hol-guard) |
+| [Ironheights](https://www.ironheights.dev/) | Local pre-install scanner for agent skills: prompt injection, hidden text, credential reads, persistence | 🟡 | 🆓 | [GitHub](https://github.com/Frank-Masciopinto/ironheights) |
 
 ### MCP Security
 
 | Name | Description | Maturity | Pricing | Link |
 |------|-------------|----------|---------|------|
+| [mcp-gatehouse](https://nickgeorgeai.com/open-source/mcp-gatehouse) | Permission tiers, approval gates and redacting audit log enforced inside Python MCP servers | 🟡 | 🆓 | [GitHub](https://github.com/nickgeorgeseo/mcp-gatehouse) |
 | [MCP Guardian](https://github.com/eqtylab/mcp-guardian) | Access control and activity monitoring for MCP servers | 🟡 | 🆓 | [GitHub](https://github.com/eqtylab/mcp-guardian) |
 | [MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist) | SlowMist's comprehensive checklist for MCP ecosystem | 🟢 | 🆓 | [GitHub](https://github.com/slowmist/MCP-Security-Checklist) |
 | [Secure MCP Gateway](https://github.com/enkryptai/secure-mcp-gateway) | Security wrapper with auth and guardrail enforcement for MCP | 🟡 | 🆓 | [GitHub](https://github.com/enkryptai/secure-mcp-gateway) |
+| [VITNA](https://github.com/COSTRINITY/vitna-compliance-mcp) | Containment for rogue AI agents: wraps stdio MCP servers so risky tool calls wait for a person; no answer, no run | 🟡 | 💎 | [GitHub](https://github.com/COSTRINITY/vitna-compliance-mcp) |
+| [Vouchity](https://www.vouchity.com) | Trust Score of 0 to 100 for MCP servers, built from public GitHub and npm data. Agents can check it before installing. | 🟡 | 💎 | [Website](https://www.vouchity.com) |
 
 ### Sandboxing & Isolation
 
